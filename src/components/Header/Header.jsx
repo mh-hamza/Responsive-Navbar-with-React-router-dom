@@ -10,9 +10,7 @@ function Header() {
   const toggleMenu = ()=>{
     setIsMenuOpen(!isMenuOpen)
   }
-  const isNavActive = ()=>{
-    
-  }
+ 
   return (
     <header className={style.header}>
       <nav className={style.navbar}>
